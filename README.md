@@ -9,7 +9,7 @@ Use the CMD to execute the script like this:
 
 `python __init__.py "path/to/model.obj"`
 
-The script will then overwrite the specified OBJ file. It is recommended to directly convert the OBJ after exporting from MagicaVoxel.
+The script will then overwrite the specified OBJ file. It is recommended to directly convert the OBJ after exporting from MagicaVoxel. If you do something in Blender with it like assigning new materials, I dont know if it will work 100% since I didn't bother to add more compatibility with OBJ file format specs that don't play a role when exporting from MagicaVoxel.
 
 If you want to create a new OBJ file instead of overwriting, you can specify it after the target file like this:
 
